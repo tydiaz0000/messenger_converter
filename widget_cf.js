@@ -240,12 +240,12 @@ async function sendMessage() {
             return;
         }
 
-        if (!data || typeof data[0].response.response !== "string") {
+        if (!data || typeof data.response !== "string") {
             addErrorMessage("Unexpected response format.");
             return;
         }
 
-        addBotMessage(data.reply);
+        addBotMessage(data.response);
 
     } catch (err) {
 
