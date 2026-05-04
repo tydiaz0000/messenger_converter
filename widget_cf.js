@@ -201,7 +201,7 @@ async function sendMessage() {
             controller.abort();
         }, 60000);
 
-        const res = await fetch("https://llm.tydiaz0000.workers.dev", {
+        const res = await fetch("https://llm.janzarieldiaz.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
