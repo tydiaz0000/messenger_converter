@@ -207,7 +207,8 @@ async function sendMessage() {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                prompt: msg
+                prompt: msg,
+                kb_source: USE_KB ? KB_NAME : null
             }),
             signal: controller.signal
         });
