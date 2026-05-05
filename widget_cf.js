@@ -12,7 +12,7 @@ const PREVIEW_TEXT = "Ask me anything 👇"
 // ------------------------
 const css = document.createElement("link");
 css.rel = "stylesheet";
-css.href ="https://messnger.janzarieldiaz.com/widget.css";
+css.href ="https://messenger.janzarieldiaz.com/widget.css";
 css.onerror = () => {
     console.error("Chatbot CSS failed to load.");
 };
