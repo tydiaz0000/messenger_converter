@@ -37,7 +37,7 @@ widget.innerHTML = `
     <div id="chatbot-messages"></div>
 
     <div id="chatbot-input-area">
-        <input id="chatbot-input" placeholder="Type message..." maxlength="1000" />
+        <input id="chatbot-input" placeholder="Type message..." maxlength="2000" />
         <button id="chatbot-send">➤</button>
     </div>
 </div>
