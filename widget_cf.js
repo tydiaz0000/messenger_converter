@@ -182,7 +182,7 @@ async function sendMessage() {
 
     if (!msg) return;
 
-    if (msg.length > 1000) {
+    if (msg.length > 2000) {
         addErrorMessage("Message is too long.");
         return;
     }
